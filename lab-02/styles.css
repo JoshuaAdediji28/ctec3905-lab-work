@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    order: 2;
+    
+  }
+  
+  nav a {
+    background-color: green;
+    color: black;
+    padding: 0.25em 0.5em;
+    margin: 0em 0em;
+   /* try different values - e.g. 3s */
+   transition: background-color 1s;
+  }
+  
+  nav a:hover {
+    background-color: red;
+
+
+  }
+
+  header {
+    background-color: pink;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: orange;
+    padding: 0.25em 0.5em;
+
+  }
+
+  header, section {
+    overflow: auto;
+  }
+  nav, section {
+    box-sizing: border-box;
+  }
+
+  main{
+    display: flex;
+  }
